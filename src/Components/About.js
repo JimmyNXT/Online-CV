@@ -32,7 +32,7 @@ export default class About extends Component {
     }
 
     return (
-      <Container>
+      <Container id="about">
         <div className="row">
           <div className="d-none d-md-block col-sm-0 col-md-3">Profile pic</div>
           <div className="col-sm-12 col-md-9">

@@ -67,7 +67,7 @@ export default class Resume extends Component {
     }
 
     let resumeContent = (
-      <Container>
+      <Container id="resume">
         <div className="jumbotron">
           <h2>Education</h2>
           {edicationContent}

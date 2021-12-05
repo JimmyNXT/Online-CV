@@ -5,17 +5,12 @@ import {
   Container,
   Image,
   ListGroup,
-  Modal,
   OverlayTrigger,
   Popover,
   Row,
 } from "react-bootstrap";
 
 export default class Portfolio extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     let portfolioContent = <p>There seems to be nothing here</p>;
 
@@ -70,7 +65,7 @@ export default class Portfolio extends Component {
     }
 
     return (
-      <Container>
+      <Container id="portfolio">
         <div className="row">
           <Card>
             <Card.Title className="text-center">
