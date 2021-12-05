@@ -1,59 +1,42 @@
 {
-  "main": {
-    "name": "Hi, I'm Odwa Nolusiba Ntloko",
-    "description": "And I'm a Software engineer. This site tells you a biiiit more about me ... :) ",
-    "image": "profilepic.png",
-    "bio": "I’m a software engineer who loves building web and mobile applications and I aspire to be building mobile apps professionally. I enjoy working with the full technology stack, from front to backend and everything inbetween. I enjoy seeing myself do magic with code and the reactions of the people I'm working with when they see my work. Most importantly, I love solving problems and I'm always eager to learn new languages/frameworks. Overall I’m passionate about technology and excited about the future.",
-    "hobbies": "I'm originally from Cape Town. One of my favourite things to do in the world is going to the beach and being surrounded by water (although I can't yet swim). I also recently discovered wine-tasting, just before COVID-19 hit, so I've only done it twice but I could see it becoming a hobbie given the opportunity. I love-love-love attending concerts/live performances. But with concerts not really being a thing anymore, my new favourite love is horseback riding/hiking.  I enjoy attending tech meetups and being part of the bigger tech community.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "ntlokodwa@gmail.com",
-    "phone": "",
-    "github": "https://github.com/odwantloko",
-    "project": "https://github.com/odwantloko/odwa-ntloko.git",
-    "address": {
-      "street": "Gauteng Area",
-      "city": "",
-      "state": "",
-      "zip": ""
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/odwa.ntloko",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/odwa-ntloko-4b3b77145/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/odwa_ntloko/?hl=en",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/odwantloko",
-        "className": "fa fa-github"
-      }
-    ]
+  "home": {
+    "mainTitle": "",
+    "welcomeMessage": ""
+  },
+  "about": {
+    "name": "Dean Minnie",
+    "image": "./profilepic.png",
+    "bio": "My Bio",
+    "contactDetails": {
+      "email": "dminnie33@gmail.com",
+      "phone": "+27 82 313 6878",
+      "address": [],
+      "social": [
+        {
+          "name": "Website",
+          "url": "https://jimmynxt.github.io",
+          "iconName": ["fas", "globe"]
+        },
+        {
+          "name": "Facebook",
+          "url": "https://jimmynxt.github.io",
+          "iconName": ["fab", "facebook"]
+        }
+      ]
+    }
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "resumedownload": "http://timbakerdev.com",
+
     "education": [
       {
         "school": "University of Cape Town",
         "degree": "BSc Computer Science and Computer Engineering",
         "graduated": "2015-2018",
-        "experience": "My first year at varsity was very challenging. In fact, I even had 2 \"first years\". I spent most of my 1st first year being overwhelmed by the environment, the workload and by the fact that it felt like I was the only one in my class that hadn't done any programming in high school. At some point, I even felt that maybe Tech wasn't for me and that the university had made a mistake accepting me to study Computer Science. However, towards the end of the year, the more I met people who felt the same way I did, the more 'normal' I felt, and the more I was able to overcome my anxieties and perform better in my academics. By the end of the following year, I obtained a distinction in one of my most challenging subjects and even became a tutor for it. ",
-        "e1": "\nI then joined the UCT Developer Society and the Women in Computer Science Society. Where I would meet-up with other aspiring developers and talk about the future. I also became a Computer Science Mentor to try and help first years adjust to university as smoothly as possible",
-        "e2": "Overall, I had a lot of ups and downs at university, but it was one of the best experiences and learning curves in my life.",
-        "description": "I learnt a lot during this degree so I won't even try to name everything. I will just list the languages/tools I used. Java; Python; C & C++; SQL; Assembly. "
+        "experience": "My first year at varsity was very challenging. In fact, I even had 2 \"first years\". I spent most of my 1st first year being overwhelmed by the environment, the workload and by the fact that it felt like I was the only one in my class that hadn't done any programming in high school. At some point, I even felt that maybe Tech wasn't for me and that the university had made a mistake accepting me to study Computer Science. However, towards the end of the year, the more I met people who felt the same way I did, the more 'normal' I felt, and the more I was able to overcome my anxieties and perform better in my academics. By the end of the following year, I obtained a distinction in one of my most challenging subjects and even became a tutor for it. "
       }
     ],
+
     "work": [
       {
         "company": "Vodacom (PTY) LTD",
@@ -74,88 +57,66 @@
         "description": "I had to create a Django CRUD application from start to finish (Fullstack). I started by designing the database structure for how the data would be stored. The data was in the form of a CSV and an Excel file which was related to eachother. I then created python scripts to merge the 2 data sources into a single data-structure and then wrote the data to the database structure I designed in the beginning. This was a Microsoft SQL server database. A user was then able to Create, Read, Update and Delete the data through the web-interface. The REST methods were defined within the Django part of the project."
       }
     ],
+
     "skills": [
       {
         "name": "Python",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "AngularJS",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "Angular2+",
-        "level": "87%"
+        "level": "87"
       },
       {
         "name": "ReactJS",
-        "level": "90%"
+        "level": "90"
       },
       {
         "name": "ReactNative",
-        "level": "55%"
+        "level": "55"
       },
       {
         "name": "Javascript",
-        "level": "90%"
+        "level": "90"
       },
       {
         "name": "NodeJS",
-        "level": "90%"
+        "level": "90"
       },
       {
         "name": "Typescript",
-        "level": "85%"
+        "level": "85"
       },
       {
         "name": "Java",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "SQL",
-        "level": "80%"
+        "level": "80"
       },
       {
         "name": "NoSQL (e.g. Firebase)",
-        "level": "85%"
+        "level": "85"
       },
       {
         "name": "AGILE way of work",
-        "level": "100%"
+        "level": "100"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Rise Afrika Rise",
-        "category": "A community project's website",
-        "image": "riseafrika.png",
-        "url": "https://rise-afrika-rise.web.app/"
-      },
-      {
-        "title": "Oval North High School",
-        "category": "A school website I was working on just before COVID-19 hit. Still waiting for images and outstanding data",
-        "image": "school.png",
-        "url": "https://oval-north-high-schoool.web.app/"
-      },
-      {
-        "title": "Thenjiwe Deliveries",
-        "category": "An Online Shoppinp Platform for resellers wanting to buy from factories",
-        "image": "thenji.jpg",
-        "url": "https://thenjiwe-trading.web.app/"
-      },
-      {
-        "title": "Thenjiwe Admin",
-        "category": "The admin part used by the website owner to update the thenjiwe deliveries data",
-        "image": "admin.png",
-        "url": "https://thenjiwe-admin.web.app/"
-      },
-      {
-        "title": "",
-        "category": "I'm currently working on more projects, watch this space!",
-        "image": "more.jpg",
-        "url": ""
+        "title": "Screwie the Discord bot",
+        "description": "A community project's website",
+        "image": "Screwie.jpg",
+        "url": "https://github.com/JimmyNXT/Screwie-The-Discord-Bot",
+        "stack": ["Node JS", "Javascrips", "SQLite", "Socket.io"]
       }
     ]
   }
