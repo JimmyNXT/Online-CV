@@ -21,7 +21,9 @@ export default class Resume extends Component {
                 <div className="col-sm-10">
                   <h3>{education.school}</h3>
                   <h4>{education.degree}</h4>
-                  <p>{education.experience}</p>
+                  <p style={{ paddingBottom: "20px" }}>
+                    {education.experience}
+                  </p>
                 </div>
               </div>
             );

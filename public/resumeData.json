@@ -19,9 +19,14 @@
           "iconName": ["fas", "globe"]
         },
         {
-          "name": "Instagram",
-          "url": "https://jimmynxt.github.io",
-          "iconName": ["fab", "instagram"]
+          "name": "Github",
+          "url": "https://github.com/JimmyNXT",
+          "iconName": ["fab", "github"]
+        },
+        {
+          "name": "Linked in",
+          "url": "https://www.linkedin.com/in/dean-minnie",
+          "iconName": ["fab", "linkedin"]
         }
       ]
     }
@@ -29,10 +34,28 @@
   "resume": {
     "education": [
       {
-        "school": "NWU",
-        "degree": "BSc IT",
-        "graduated": "2019-Current",
-        "experience": "Some text"
+        "school": "North-West University",
+        "degree": "Bachelor of Science: Information Technology",
+        "graduated": "2019-07 - Current",
+        "experience": " "
+      },
+      {
+        "school": "North-West University",
+        "degree": "Bachelor of Engineering: Computer Engineering",
+        "graduated": "2018-01 - 2019-06",
+        "experience": " "
+      },
+      {
+        "school": "Stellenbosch University",
+        "degree": "Bachelor of Engineering: Mechatronics Engineering",
+        "graduated": "2017-01 - 2017-12",
+        "experience": " "
+      },
+      {
+        "school": "Helpmekaar Kollege",
+        "degree": "High School Diploma",
+        "graduated": "2013-01 - 2016-12 ",
+        "experience": " "
       }
     ],
 
@@ -59,48 +82,80 @@
 
     "skills": [
       {
-        "name": "Python",
+        "name": "Java",
+        "level": "97"
+      },
+      {
+        "name": "C/C++",
+        "level": "83"
+      },
+      {
+        "name": "C#",
+        "level": "88"
+      },
+      {
+        "name": "ASP.NET",
         "level": "80"
-      },
-      {
-        "name": "AngularJS",
-        "level": "80"
-      },
-      {
-        "name": "Angular2+",
-        "level": "87"
-      },
-      {
-        "name": "ReactJS",
-        "level": "90"
-      },
-      {
-        "name": "ReactNative",
-        "level": "55"
       },
       {
         "name": "Javascript",
-        "level": "90"
+        "level": "72"
+      },
+      {
+        "name": "Python",
+        "level": "83"
+      },
+      {
+        "name": "Assembly (8051)",
+        "level": "54"
+      },
+      {
+        "name": "Robot C",
+        "level": "98"
+      },
+      {
+        "name": "PHP",
+        "level": "62"
+      },
+      {
+        "name": "Processing",
+        "level": "80"
+      },
+      {
+        "name": "JWT",
+        "level": "70"
+      },
+      {
+        "name": "Socket.IO",
+        "level": "91"
+      },
+      {
+        "name": "Spring and Spring Boot",
+        "level": "93"
+      },
+      {
+        "name": "ReactJS",
+        "level": "84"
+      },
+      {
+        "name": "Docker",
+        "level": "76"
       },
       {
         "name": "NodeJS",
-        "level": "90"
-      },
-      {
-        "name": "Typescript",
-        "level": "85"
-      },
-      {
-        "name": "Java",
-        "level": "80"
+        "level": "89"
       },
       {
         "name": "SQL",
-        "level": "80"
+        "level": "90"
       },
       {
-        "name": "NoSQL (e.g. Firebase)",
-        "level": "85"
+        "name": "P5",
+        "level": "67"
+      },
+      {
+        "name": "Arduino",
+        "level": "80"
       },
       {
         "name": "AGILE way of work",
@@ -112,10 +167,61 @@
     "projects": [
       {
         "title": "Screwie the Discord bot",
-        "description": "A community project's website",
+        "description": "Skrewie is a discord bot that currently manages my Discord server and provides some entertainment when promted. In the not to distant future Screvie will also become the frontend to my home automation system providing server wide status updates to all relevant users.",
         "image": "Screwie.jpg",
         "url": "https://github.com/JimmyNXT/Screwie-The-Discord-Bot",
         "stack": ["Node JS", "Javascrips", "SQLite", "Socket.io"]
+      },
+      {
+        "title": "Online-CV",
+        "description": "This is the development build of the website you are viewing this on.",
+        "image": "Online-CV.jpg",
+        "url": "https://github.com/JimmyNXT/Online-CV",
+        "stack": ["Node JS", "Javascrips", "Docker", "JSON", "React JS"]
+      },
+      {
+        "title": "The-Hub",
+        "description": "The Hub is effectivly a socket server that manages the flow of data between Skrewie, sensor nodes and other systems interacting with my home automation system",
+        "image": "The-Hub.jpg",
+        "url": "https://github.com/JimmyNXT/The-Hub",
+        "stack": ["Node JS", "Javascrips", "Docker", "JSON", "React JS"]
+      },
+      {
+        "title": "Account System",
+        "description": "Account System is a project I developed for CMPG 323 subject at NWU. It provides the backend needed for the operation of a mock of the Discovery vitality app.",
+        "image": "Account-System.png",
+        "url": "https://github.com/JimmyNXT/AccountSystem",
+        "stack": ["Java", "MySQL", "Swagger", "Hibernate", "Spring"]
+      },
+      {
+        "title": "Image Share",
+        "description": "Image Share is a project I developed for CMPG 323 subject at NWU. It allows users more easily manage and share theis images and well the their photo's metadata.",
+        "image": "Image-Share.png",
+        "url": "https://github.com/JimmyNXT/ImageShare",
+        "stack": [
+          "Java",
+          "MySQL",
+          "Hibernate",
+          "React JS",
+          "Spring",
+          "Typescript",
+          "JWT",
+          "JQuery"
+        ]
+      },
+      {
+        "title": " RPA-Server",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Server forms the head node of the platform and is responsable for keeping track of process progress and the processes schedual. This project also facilataes communication between the elements involved in the platform.",
+        "image": "Account-System.png",
+        "url": "https://github.com/JimmyNXT/AccountSystem",
+        "stack": ["Python", "MySQL", "Socket.IO", "PyPi"]
+      },
+      {
+        "title": " RPA-Server",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Server forms the head node of the platform and is responsable for keeping track of process progress and the processes schedual. This project also facilataes communication between the elements involved in the platform.",
+        "image": "Account-System.png",
+        "url": "https://github.com/Bearded-Monkeys/RPA-Server",
+        "stack": ["Python", "MySQL", "Socket.IO", "PyPi"]
       }
     ]
   }

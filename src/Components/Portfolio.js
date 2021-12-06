@@ -20,34 +20,32 @@ export default class Portfolio extends Component {
           return <ListGroup.Item>{stack}</ListGroup.Item>;
         });
         return (
-          <div className="col-sm-3">
+          <Col sm={3} style={{ paddingBottom: "20px" }}>
             <OverlayTrigger
               key={project.title}
               trigger="hover"
               placement="top"
               overlay={
-                <Popover id={`popover-${project.title}`}>
+                <Popover
+                  id={`popover-${project.title}`}
+                  style={{ maxWidth: "100%", width: "100%" }}
+                >
                   <Popover.Header as="h3">{project.title}</Popover.Header>
                   <Popover.Body>
                     <Row>
-                      <Col sm={3}>
+                      <Col sm={2}>
                         <Image
                           src={`./${project.image}`}
-                          height="70px"
-                          width="70px"
                           roundedCircle
+                          width="100%"
                         />
                       </Col>
-                      <Col sm={9}>
-                        <Container>
-                          <Row>
-                            <p>{project.description}</p>
-                          </Row>
-                          <Row>
-                            <p className="h6">Technologies Used</p>
-                            <ListGroup>{stackContent}</ListGroup>
-                          </Row>
-                        </Container>
+                      <Col sm={8}>
+                        <p style={{ padding: "40px" }}>{project.description}</p>
+                      </Col>
+                      <Col sm={2}>
+                        <p className="h5">Technologies Used</p>
+                        <ListGroup>{stackContent}</ListGroup>
                       </Col>
                     </Row>
                   </Popover.Body>
@@ -55,11 +53,11 @@ export default class Portfolio extends Component {
               }
             >
               <Card>
-                <Card.Img src={`./${project.image}`} />
+                <Card.Img src={`./${project.image}`} height="220px" />
                 <Card.Title className="text-center">{project.title}</Card.Title>
               </Card>
             </OverlayTrigger>
-          </div>
+          </Col>
         );
       });
     }
@@ -67,17 +65,12 @@ export default class Portfolio extends Component {
     return (
       <div id="portfolio">
         <Container style={{ paddingTop: "20px" }}>
-          <div className="row">
-            <Card>
-              <Card.Title
-                className="text-center"
-                style={{ paddingTop: "10px" }}
-              >
-                Checkout some of my work
-              </Card.Title>
-              <Card.Body>{portfolioContent}</Card.Body>
-            </Card>
-          </div>
+          <Row>
+            <div className="text-center" style={{ paddingTop: "10px" }}>
+              <p className="h5">Checkout some of my work</p>
+            </div>
+          </Row>
+          <Row>{portfolioContent}</Row>
         </Container>
       </div>
     );
