@@ -52,10 +52,14 @@ export default class Portfolio extends Component {
                 </Popover>
               }
             >
-              <Card>
-                <Card.Img src={`./${project.image}`} height="220px" />
-                <Card.Title className="text-center">{project.title}</Card.Title>
-              </Card>
+              <a href={project.url}>
+                <Card>
+                  <Card.Img src={`./${project.image}`} height="220px" />
+                  <Card.Title className="text-center">
+                    {project.title}
+                  </Card.Title>
+                </Card>
+              </a>
             </OverlayTrigger>
           </Col>
         );

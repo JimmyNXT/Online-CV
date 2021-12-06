@@ -1,13 +1,13 @@
 {
   "home": {
     "mainTitle": "Dean Minnie",
-    "welcomeMessage": "Aspiring Full-stack and Embeded Systems Developer"
+    "welcomeMessage": "Aspiring Full-stack and Embedded Systems Developer"
   },
   "about": {
     "name": "Dean Minnie",
     "image": "ProfilePic.jpg",
-    "bio": "My Bio",
-    "resumedownload": "Dean_Minnie_Resume_V1.PDF",
+    "bio": "I am a driven student leveraging my studies in the field Information Technology to apply critical problem solving in a fast paced environment. Offers strong interpersonal and task prioritization skills.",
+    "resumedownload": "Dean_Minnie_Resume.PDF",
     "contactDetails": {
       "email": "dminnie33@gmail.com",
       "phone": "+27 82 313 6878",
@@ -37,13 +37,13 @@
         "school": "North-West University",
         "degree": "Bachelor of Science: Information Technology",
         "graduated": "2019-07 - Current",
-        "experience": " "
+        "experience": "In July of 2019 I can to the conclusion that engineering was not my passion and that my talents would be better perfected if I focused my energy on studying Information Technology."
       },
       {
         "school": "North-West University",
         "degree": "Bachelor of Engineering: Computer Engineering",
         "graduated": "2018-01 - 2019-06",
-        "experience": " "
+        "experience": "Continuing education in Engineering."
       },
       {
         "school": "Stellenbosch University",
@@ -64,19 +64,19 @@
         "company": "Drones africa",
         "title": "Drone Systems Developer",
         "years": "Apr 2020 - Current",
-        "description": ""
+        "description": "My main reasonability at Drones africa is to research, develope and perfect the various system that allow our drones to remain at the bleeding edge of the market. This requires in depth knowledge on a wide area of expertise along with the perseverance to continuously fail until you find that one solution."
       },
       {
         "company": "Dischem (CJ Distributions)",
         "title": "Software Developer Intern",
         "years": "Jan 2020 - Mar 2020",
-        "description": "During my internship at Dischem I was exposed to the large veriaty of technologies they use to facilatate the management of inventory quantities and logistics. I worked along side their Supply Chain and Core Solutions graduate to create a platform that would facilatate the schedualing and automation of repetative SAP UI tasks."
+        "description": "During my internship at Dischem I was exposed to the large variety of technologies they use to facilitate the management of inventory quantities and logistics. I worked along side their Supply Chain and Core Solutions graduate to create a platform that would facilitate the scheduling and automation of repetitive SAP UI tasks."
       },
       {
         "company": "SIS Farming group",
         "title": "Workshop Intern",
         "years": "Jun 2018",
-        "description": "While working in the workshop at SIS Farming Group I not only improved my basic workshop skills but also developed some system analysis and crytical problem solving skills. While working under their workshop manager I experianced firsthand the amount of time, effort and patiants it takes to gain the respect of ones subordinates and truly lead from behind."
+        "description": "While working in the workshop at SIS Farming Group I not only improved my basic workshop skills but also developed some system analysis and critical problem solving skills. While working under their workshop manager I experienced firsthand the amount of time, effort and patients it takes to gain the respect of ones subordinates and truly lead from behind."
       }
     ],
 
@@ -167,7 +167,7 @@
     "projects": [
       {
         "title": "Screwie the Discord bot",
-        "description": "Skrewie is a discord bot that currently manages my Discord server and provides some entertainment when promted. In the not to distant future Screvie will also become the frontend to my home automation system providing server wide status updates to all relevant users.",
+        "description": "Skrewie is a discord bot that currently manages my Discord server and provides some entertainment when promoted. In the not to distant future Skrewie will also become the frontend to my home automation system providing server wide status updates to all relevant users.",
         "image": "Screwie.jpg",
         "url": "https://github.com/JimmyNXT/Screwie-The-Discord-Bot",
         "stack": ["Node JS", "Javascrips", "SQLite", "Socket.io"]
@@ -195,7 +195,7 @@
       },
       {
         "title": "Image Share",
-        "description": "Image Share is a project I developed for CMPG 323 subject at NWU. It allows users more easily manage and share theis images and well the their photo's metadata.",
+        "description": "Image Share is a project I developed for CMPG 323 subject at NWU. It allows users more easily manage and share their images and well the their photo's metadata.",
         "image": "Image-Share.png",
         "url": "https://github.com/JimmyNXT/ImageShare",
         "stack": [
@@ -210,18 +210,39 @@
         ]
       },
       {
-        "title": " RPA-Server",
-        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Server forms the head node of the platform and is responsable for keeping track of process progress and the processes schedual. This project also facilataes communication between the elements involved in the platform.",
-        "image": "Account-System.png",
+        "title": "RPA-Server",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Server forms the head node of the platform and is responsible for keeping track of process progress and the processes schedule. This project also facilitates communication between the elements involved in the platform.",
+        "image": "CJ_Distribution.png",
         "url": "https://github.com/JimmyNXT/AccountSystem",
         "stack": ["Python", "MySQL", "Socket.IO", "PyPi"]
       },
       {
-        "title": " RPA-Server",
-        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Server forms the head node of the platform and is responsable for keeping track of process progress and the processes schedual. This project also facilataes communication between the elements involved in the platform.",
-        "image": "Account-System.png",
-        "url": "https://github.com/Bearded-Monkeys/RPA-Server",
-        "stack": ["Python", "MySQL", "Socket.IO", "PyPi"]
+        "title": "RPA-GUI",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-GUI is an interface through which the RPA tasks can pe uploaded, configured and schedualed. It also provides feedback from both the registered robots and their scripts.",
+        "image": "CJ_Distribution.png",
+        "url": "https://github.com/Bearded-Monkeys/RPA-GUI",
+        "stack": ["C#", "Socket.IO"]
+      },
+      {
+        "title": "RPA-Robot",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The RPA-Robot is an example of what a worker node would functionally look like.",
+        "image": "CJ_Distribution.png",
+        "url": "https://github.com/Bearded-Monkeys/RPA-Robot",
+        "stack": ["Python", "Socket.IO"]
+      },
+      {
+        "title": "Python-RPA-Robot-Module",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The Python-RPA-Robot-Module is a python library that contains all the functions and protocols that allow an RPA-Robot to communication with its managing node as well as with its scripts.",
+        "image": "CJ_Distribution.png",
+        "url": "https://github.com/Bearded-Monkeys/Python-RPA-Robot-Module",
+        "stack": ["Python", "Socket.IO"]
+      },
+      {
+        "title": "Python-RPA-Script-Module",
+        "description": "This project was developed during my time at Dischem and forms part of the Robot Process Automation (RPA) platform we developed. The Python-RPA-Script-Module is a python library that contains all the functions and protocols that allow an RPA-Scrips to communication with its managing node as well as with the robot running it. This library also contains some common functions performed in the SAP UI",
+        "image": "CJ_Distribution.png",
+        "url": "https://github.com/Bearded-Monkeys/Python-RPA-Script-Module",
+        "stack": ["Python", "Socket.IO", "SAP", "Com32"]
       }
     ]
   }
