@@ -65,16 +65,21 @@ export default class Portfolio extends Component {
     }
 
     return (
-      <Container id="portfolio">
-        <div className="row">
-          <Card>
-            <Card.Title className="text-center">
-              Checkout some of my work
-            </Card.Title>
-            <Card.Body>{portfolioContent}</Card.Body>
-          </Card>
-        </div>
-      </Container>
+      <div id="portfolio">
+        <Container style={{ paddingTop: "20px" }}>
+          <div className="row">
+            <Card>
+              <Card.Title
+                className="text-center"
+                style={{ paddingTop: "10px" }}
+              >
+                Checkout some of my work
+              </Card.Title>
+              <Card.Body>{portfolioContent}</Card.Body>
+            </Card>
+          </div>
+        </Container>
+      </div>
     );
   }
 }

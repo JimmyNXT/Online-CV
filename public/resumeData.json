@@ -7,6 +7,7 @@
     "name": "Dean Minnie",
     "image": "./profilepic.png",
     "bio": "My Bio",
+    "resumedownload": "Dean_Minnie_Resume_V1.PDF",
     "contactDetails": {
       "email": "dminnie33@gmail.com",
       "phone": "+27 82 313 6878",
@@ -26,35 +27,21 @@
     }
   },
   "resume": {
-    "resumedownload": "http://timbakerdev.com",
-
     "education": [
       {
-        "school": "University of Cape Town",
-        "degree": "BSc Computer Science and Computer Engineering",
-        "graduated": "2015-2018",
-        "experience": "My first year at varsity was very challenging. In fact, I even had 2 \"first years\". I spent most of my 1st first year being overwhelmed by the environment, the workload and by the fact that it felt like I was the only one in my class that hadn't done any programming in high school. At some point, I even felt that maybe Tech wasn't for me and that the university had made a mistake accepting me to study Computer Science. However, towards the end of the year, the more I met people who felt the same way I did, the more 'normal' I felt, and the more I was able to overcome my anxieties and perform better in my academics. By the end of the following year, I obtained a distinction in one of my most challenging subjects and even became a tutor for it. "
+        "school": "NWU",
+        "degree": "BSc IT",
+        "graduated": "2019-Current",
+        "experience": "Some text"
       }
     ],
 
     "work": [
       {
-        "company": "Vodacom (PTY) LTD",
-        "title": "Specialist: Automation & Transformation Developer",
-        "years": "Mar 2021 - Present",
-        "description": "I'm still in the same team that I was in when I initally joined Vodacom. In this role I'm a software developer who continues to work across the fullstack of web applications. I develop web applications using reactJS for their front-end and build microservices using nodeJS. I perform code reviews to ensure that the standards of our software development team are being met. I provide support for new people who join the team and help them get started in our team."
-      },
-      {
-        "company": "Vodacom (PTY) LTD",
-        "title": "Discover Graduate Trainee - Software Engineer ",
-        "years": "Feb 2019 - Feb 2021",
-        "description": "During the program I was exposed to different parts and technologies in the business. The first part of the business I was exposed to was our RPA division where I learnt process behind automating repetive tasks for 3 months. I was then exposed to the financial services industry and developed an application which reduced the turn around time of short term insurance claims from 2 hours to 15 minutes. I spent 3 months in the financial services team. I then worked worked with the Vodacom chatbot team and supporting tribe teams for the rest of the 2 year program. I started out working on the reporting for the team building angular dashboard views for different stakeholders. I have since been building other types of internal web application tools and their backends for stakeholders within our tribe. I've also built a few of the chatbot microservices depending on the business needs. The tech stack I've been using is ReactJS, NodeJS, Oracle SQL developer, bitbucket and redhat openshift."
-      },
-      {
-        "company": "ACI World Wide",
-        "title": "Intern Associate Software Engineer",
-        "years": "Nov 2018 - Jan 2019",
-        "description": "I had to create a Django CRUD application from start to finish (Fullstack). I started by designing the database structure for how the data would be stored. The data was in the form of a CSV and an Excel file which was related to eachother. I then created python scripts to merge the 2 data sources into a single data-structure and then wrote the data to the database structure I designed in the beginning. This was a Microsoft SQL server database. A user was then able to Create, Read, Update and Delete the data through the web-interface. The REST methods were defined within the Django part of the project."
+        "company": "Drones africa",
+        "title": "Job title",
+        "years": "Mar 2022 - Present",
+        "description": ""
       }
     ],
 

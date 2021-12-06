@@ -1,5 +1,13 @@
 #home {
-  background-image: url("./Screwie.jpg");
+  background-image: url("./background.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#portfolio {
+  background-color: #ced4da;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
