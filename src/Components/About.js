@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
-import { Button, Container, Image } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 
 export default class About extends Component {
   render() {
@@ -9,6 +9,8 @@ export default class About extends Component {
     let contactDetailsContent = <p>Some text</p>;
 
     let resumeDownloadLink = "./#";
+
+    let profilePic = "";
 
     if (this.props.data) {
       aboutMeContent = <p>{this.props.data.bio}</p>;
@@ -32,21 +34,25 @@ export default class About extends Component {
         </div>
       );
       resumeDownloadLink = `./${this.props.data.resumedownload}`;
+      profilePic = `./${this.props.data.image}`;
     }
 
     return (
-      <Container id="about" style={{ paddingTop: "40px" }}>
-        <div className="row">
-          <div className="d-none d-md-block col-sm-0 col-md-3">
-            <Image src="./Screwie.jpg" roundedCircle />
-          </div>
-          <div className="col-sm-12 col-md-9">
-            <div className="row">
+      <Container
+        id="about"
+        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+      >
+        <Row>
+          <Col sm={false} md={3}>
+            <Image src={profilePic} roundedCircle width="100%" />
+          </Col>
+          <Col ms={12} md={9}>
+            <Row>
               <h2>About Me</h2>
               {aboutMeContent}
-            </div>
+            </Row>
             <br />
-            <div className="row">
+            <Row>
               <div className="col-sm-12 col-lg-8">
                 <h2>Contact Details</h2>
                 {contactDetailsContent}
@@ -63,9 +69,9 @@ export default class About extends Component {
                   Download Resume
                 </Button>
               </div>
-            </div>
-          </div>
-        </div>
+            </Row>
+          </Col>
+        </Row>
       </Container>
     );
   }

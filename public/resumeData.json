@@ -1,11 +1,11 @@
 {
   "home": {
-    "mainTitle": "",
-    "welcomeMessage": ""
+    "mainTitle": "Dean Minnie",
+    "welcomeMessage": "Aspiring Full-stack and Embeded Systems Developer"
   },
   "about": {
     "name": "Dean Minnie",
-    "image": "./profilepic.png",
+    "image": "ProfilePic.jpg",
     "bio": "My Bio",
     "resumedownload": "Dean_Minnie_Resume_V1.PDF",
     "contactDetails": {
@@ -19,9 +19,9 @@
           "iconName": ["fas", "globe"]
         },
         {
-          "name": "Facebook",
+          "name": "Instagram",
           "url": "https://jimmynxt.github.io",
-          "iconName": ["fab", "facebook"]
+          "iconName": ["fab", "instagram"]
         }
       ]
     }
@@ -39,9 +39,21 @@
     "work": [
       {
         "company": "Drones africa",
-        "title": "Job title",
-        "years": "Mar 2022 - Present",
+        "title": "Drone Systems Developer",
+        "years": "Apr 2020 - Current",
         "description": ""
+      },
+      {
+        "company": "Dischem (CJ Distributions)",
+        "title": "Software Developer Intern",
+        "years": "Jan 2020 - Mar 2020",
+        "description": "During my internship at Dischem I was exposed to the large veriaty of technologies they use to facilatate the management of inventory quantities and logistics. I worked along side their Supply Chain and Core Solutions graduate to create a platform that would facilatate the schedualing and automation of repetative SAP UI tasks."
+      },
+      {
+        "company": "SIS Farming group",
+        "title": "Workshop Intern",
+        "years": "Jun 2018",
+        "description": "While working in the workshop at SIS Farming Group I not only improved my basic workshop skills but also developed some system analysis and crytical problem solving skills. While working under their workshop manager I experianced firsthand the amount of time, effort and patiants it takes to gain the respect of ones subordinates and truly lead from behind."
       }
     ],
 
