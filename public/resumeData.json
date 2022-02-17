@@ -243,6 +243,13 @@
         "image": "CJ_Distribution.png",
         "url": "https://github.com/Bearded-Monkeys/Python-RPA-Script-Module",
         "stack": ["Python", "Socket.IO", "SAP", "Com32"]
+      },
+      {
+        "title": "Ardupilot",
+        "description": "This project was developed during my time at Drones Africa as port of the ardupilot firmware to a custom Raspberry Pi based flight controller.",
+        "image": "Ardupilot.png",
+        "url": "https://github.com/DronesAfrica/ardupilot",
+        "stack": ["Arduino", "ardupilot", "Linux", "Raspberry Pi"]
       }
     ]
   }
